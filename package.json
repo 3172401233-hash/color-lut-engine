@@ -1,0 +1,17 @@
+{
+  "name": "color-lut-engine",
+  "version": "1.0.0",
+  "description": "纯 CPU 的三维 LUT 色彩处理库：.cube 解析、三线性/四面体插值、色彩空间转换与 LUT 串联",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
